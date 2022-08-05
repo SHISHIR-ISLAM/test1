@@ -1,0 +1,24 @@
+// variables & function 
+@import 'variable';
+
+// base & layout 
+@import 'base'; 
+
+// color
+@import 'color';
+
+
+@import 'components/card';
+
+@import 'components/button';
+
+// component (card, button, flex )
+@import 'media/breackpoints';
+ 
+
+// utilities (margin, padding, outline)
+
+body{
+    background-color: rgb(147, 118, 118); 
+    padding: 3rem;
+}  

@@ -1,0 +1,68 @@
+@use 'sass:math';
+
+
+.card{
+    display: block;
+    padding: $base-padding;
+    border: $base-border-thickness solid rgb(255, 0, 0);
+    box-shadow: $base-box-shadow;
+    .card-title{
+        font-size: $base-font-size-lg;
+        font-weight: bold;
+        padding-bottom: $base-padding;
+        color: $primary;
+    }
+    .card-body{
+        font-size: $base-font-size;
+        color: $error;
+        a{
+            text-decoration: underline;
+            color: $info;
+        }
+    }
+}
+
+
+.test-btn{
+    background: map-get($colors, 'red');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @debug "hellow shishir";
+// @debug math.div(10, 5);
+// @debug math.floor(5.5);
+// @debug math.max(1, 30, 0, 55);
+// @debug math.min(2, 355, 5, 6, 0);
+
+
+
+
+
+

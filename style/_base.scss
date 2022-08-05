@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+hr{
+    border: 0;
+    border-top: 1px dotted #efefef
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+a{
+    color: $secondary;
+}
+
+
+
+
